@@ -1,0 +1,565 @@
+@font-face {
+  font-family: Tahoma;
+  src: url("/img/fonts/Tahoma.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Tahoma-bold";
+  src: url("/img/fonts/Tahomabold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Tahoma-regular";
+  src: url("/img/fonts/Tahoma Regular font.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Tahoma-semibold";
+  src: url("/img/fonts/TAHOMA_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Tahoma-regularbold";
+  src: url("/img/fonts/TAHOMAB0.ttf") format("truetype");
+}
+
+#type_envio {
+  position: relative;
+  height: 527px;
+}
+#type_envio .card {
+  padding: 57px 55px 26px 48px;
+}
+#type_envio .card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  height: 100%;
+}
+#type_envio .card .card-header .text-primary {
+  font-size: 15px;
+  line-height: 0;
+}
+
+#type_envio .card .card-body .card-body-type-deposito {
+  display: grid;
+  grid-column-gap: 43px;
+  grid-row-gap: 51px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 51px;
+}
+#type_envio .card .card-body .card-body-valores {
+  display: grid;
+  grid-column-gap: 43px;
+  grid-row-gap: 51px;
+  grid-template-columns: repeat(2, 1fr);
+}
+#type_envio .card .card-body .card-item-deposito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Tahoma;
+  font-style: normal;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: -0.011em;
+  border: 3px solid transparent;
+  box-shadow: 4.50146px 4.50146px 15.0049px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 14px 25px;
+  background-color: #ffffff;
+  color: #3e003e;
+}
+#type_envio .card .card-body .card-item-deposito:hover {
+  border: 3px solid #3e003e;
+}
+
+#type_envio .card .card-footer {
+  display: flex;
+  position: absolute;
+  right: 38.74px;
+  bottom: 27px;
+}
+#type_envio .card .card-footer .button-change-account {
+  padding: 10px 14px;
+}
+
+/* INFORMACION DEL ENVIIO */
+
+#info_envio {
+  position: relative;
+  height: 527px;
+}
+#info_envio .card {
+  padding: 57px 42px 26px 48px;
+}
+#info_envio .card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 53px;
+  height: 100%;
+}
+#info_envio .card .card-header .text-primary {
+  font-size: 20px;
+  letter-spacing: -0.011em;
+  color: #3e003e;
+  line-height: 1;
+}
+
+#info_envio .card .card-body .card-body-info-deposito-efectivo {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 31px;
+  grid-template-columns: repeat(1, 1fr);
+  margin-bottom: 51px;
+}
+#info_envio .card .card-body .card-body-info-deposito-cheque {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 31px;
+  grid-template-columns: repeat(1, 1fr);
+  margin-bottom: 51px;
+}
+#info_envio
+  .card
+  .card-body
+  .card-body-info-deposito-efectivo
+  .text-info-regular {
+  font-family: Tahoma;
+  font-weight: 400;
+  font-size: 15px;
+  color: #3e003e;
+}
+#info_envio
+  .card
+  .card-body
+  .card-body-info-deposito-efectivo
+  .text-info-regular
+  img {
+  margin-right: 21px;
+}
+#info_envio .card .card-body .card-body-info-deposito-efectivo .text-info-bold {
+  font-family: Tahoma-bold;
+  font-weight: 700;
+  font-size: 15px;
+  color: #3e003e;
+}
+#info_envio
+  .card
+  .card-body
+  .card-body-info-deposito-cheque
+  .text-info-regular {
+  font-family: Tahoma;
+  font-weight: 400;
+  font-size: 15px;
+  color: #3e003e;
+}
+#info_envio
+  .card
+  .card-body
+  .card-body-info-deposito-cheque
+  .text-info-regular
+  img {
+  margin-right: 21px;
+}
+#info_envio .card .card-body .card-body-info-deposito-cheque .text-info-bold {
+  font-family: Tahoma-bold;
+  font-weight: 700;
+  font-size: 15px;
+  color: #3e003e;
+}
+#info_envio .card .card-footer {
+  display: flex;
+  position: absolute;
+  right: 38.74px;
+  bottom: 27px;
+}
+#info_envio .card .card-footer .button-change-account {
+  padding: 10px 14px;
+}
+
+/* INGRESO DE BILLETES COMPONENTE */
+
+#ingreso_billete_cheque {
+  position: relative;
+  height: 527px;
+}
+#ingreso_billete_cheque .card {
+  padding: 57px 42px 26px 48px;
+}
+#ingreso_billete_cheque .card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 53px;
+  height: 100%;
+}
+#ingreso_billete_cheque .card .card-header .text-primary {
+  font-size: 15px;
+  letter-spacing: -0.011em;
+  color: #3e003e;
+  line-height: 1;
+}
+#ingreso_billete_cheque .card .card-body {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+#ingreso_billete_cheque .card .card-body .card-body-info-deposito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#ingreso_billete_cheque .text-ingresar-billetes {
+  font-family: Tahoma-bold;
+  font-size: 30px;
+  color: #3e003e;
+}
+#ingreso_billete_cheque .text-ingresar-cheque {
+  font-family: Tahoma-bold;
+  font-size: 30px;
+  color: #3e003e;
+  margin-top: 12px;
+}
+#ingreso_billete_cheque .card .card-body .card-body-info-deposito img {
+  width: 150px;
+}
+
+#ingreso_billete_cheque .card .card-footer {
+  display: flex;
+  position: absolute;
+  right: 38.74px;
+  bottom: 27px;
+}
+#ingreso_billete_cheque .card .card-footer .button-change-account {
+  padding: 10px 14px;
+}
+
+/* RESUMEN DE BILLETES COMPONENTE */
+
+#resumen_billetes {
+  position: relative;
+  height: 527px;
+}
+#resumen_billetes .card {
+  padding: 57px 42px 26px 48px;
+}
+#resumen_billetes .card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 53px;
+  height: 100%;
+}
+#resumen_billetes .card .card-header .text-primary {
+  font-size: 15px;
+  letter-spacing: -0.011em;
+  color: #3e003e;
+  line-height: 1;
+}
+#resumen_billetes .card .card-body {
+  display: grid;
+  grid-template-columns: repeat(0, 1fr);
+  grid-template-rows: 4fr;
+  padding: 0 48px 0 42px;
+}
+#resumen_billetes .card .card-body .card-body-info-deposito {
+  border-bottom: 1px solid #3e003e;
+  padding: 9px 0 12px 0;
+  width: 100%;
+}
+#resumen_billetes .text-ingresar-billetes {
+  font-family: Tahoma-bold;
+  font-size: 30px;
+  color: #3e003e;
+}
+#resumen_billetes .card .card-body .card-body-info-deposito img {
+  width: 150px;
+}
+
+#resumen_billetes .card .card-body .card-body-info-deposito .card-body-resumen {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 22px;
+}
+#resumen_billetes
+  .card
+  .card-body
+  .card-body-info-deposito
+  .card-body-resumen
+  .resumen-cantidad {
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #3e003e;
+}
+#resumen_billetes
+  .card
+  .card-body
+  .card-body-info-deposito
+  .card-body-resumen
+  .resumen-billetes {
+  font-family: Tahoma-bold;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #3e003e;
+}
+#resumen_billetes .card .card-body .card-body-totally-amount {
+  padding: 0 24px;
+  margin-top: 35px;
+}
+
+#resumen_billetes
+  .card
+  .card-body
+  .card-body-totally-amount
+  .card-item-account {
+  display: flex;
+  justify-content: center;
+  border: 3px solid transparent;
+  box-shadow: 4.50146px 4.50146px 15.0049px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 14px 25px;
+  background-color: #ffffff;
+  color: #3e003e;
+}
+#resumen_billetes
+  .card
+  .card-body
+  .card-body-totally-amount
+  .card-item-account
+  .card-resumen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#resumen_billetes
+  .card
+  .card-body
+  .card-body-totally-amount
+  .card-item-account
+  .card-resumen
+  .text-resumen-total {
+  font-family: Tahoma-bold;
+  font-size: 15px;
+}
+
+#resumen_billetes
+  .card
+  .card-body
+  .card-body-totally-amount
+  .card-item-account
+  .card-resumen
+  .text-resumen-cash {
+  font-family: Tahoma-bold;
+  font-size: 25px;
+  margin-top: 12px;
+}
+#resumen_billetes .card .card-footer {
+  display: flex;
+  position: absolute;
+  right: 38.74px;
+  bottom: 27px;
+}
+#resumen_billetes .card .card-footer .button-change-account {
+  padding: 10px 14px;
+}
+
+/*
+RESUMEN DE BILLETES
+ */
+
+#resumen_ingreso_cheques {
+  position: relative;
+  height: 527px;
+}
+#resumen_ingreso_cheques .card {
+  padding: 57px 42px 26px 48px;
+}
+#resumen_ingreso_cheques .card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 53px;
+  height: 100%;
+}
+#resumen_ingreso_cheques .card .card-header .text-primary {
+  font-size: 15px;
+  letter-spacing: -0.011em;
+  color: #3e003e;
+  line-height: 1;
+}
+
+#resumen_ingreso_cheques .card .card-body .card-body-info-deposito {
+  padding: 0 50px;
+}
+#resumen_ingreso_cheques
+  .card
+  .card-body
+  .card-body-info-deposito
+  .card-body-resumen {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: center;
+}
+#resumen_ingreso_cheques
+  .card
+  .card-body
+  .card-body-info-deposito
+  .card-body-resumen
+  .resumen-cheques {
+  width: 100%;
+  border-bottom: 1px solid #3e003e;
+  padding: 0 0 8px 0;
+  text-align: center;
+  font-family: Tahoma-bold;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.011em;
+  color: #3e003e;
+}
+
+#resumen_ingreso_cheques .card .card-body .card-body-totally-amount {
+  padding: 0 50px;
+  margin-top: 35px;
+}
+
+#resumen_ingreso_cheques
+  .card
+  .card-body
+  .card-body-totally-amount
+  .card-item-account {
+  display: flex;
+  justify-content: center;
+  border: 3px solid transparent;
+  box-shadow: 4.50146px 4.50146px 15.0049px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 14px 25px;
+  background-color: #ffffff;
+  color: #3e003e;
+}
+#resumen_ingreso_cheques
+  .card
+  .card-body
+  .card-body-totally-amount
+  .card-item-account
+  .card-resumen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#resumen_ingreso_cheques
+  .card
+  .card-body
+  .card-body-totally-amount
+  .card-item-account
+  .card-resumen
+  .text-resumen-total {
+  font-family: Tahoma-bold;
+  font-size: 15px;
+}
+
+#resumen_ingreso_cheques
+  .card
+  .card-body
+  .card-body-totally-amount
+  .card-item-account
+  .card-resumen
+  .text-resumen-cash {
+  font-family: Tahoma-bold;
+  font-size: 25px;
+  margin-top: 12px;
+}
+#resumen_ingreso_cheques .card .card-footer {
+  display: flex;
+  position: absolute;
+  right: 38.74px;
+  bottom: 27px;
+}
+#resumen_ingreso_cheques .card .card-footer .button-change-account {
+  padding: 10px 14px;
+}
+
+/* CONFIRMACION DEL DEPOSITO EN CHEQUE */
+
+#confirmation_cheque {
+  position: relative;
+  height: 527px;
+}
+#confirmation_cheque .card {
+  padding: 57px 38px 26px 38px;
+}
+#confirmation_cheque .card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+#confirmation_cheque .card .card-header .text-primary {
+  font-size: 15px;
+}
+#confirmation_cheque .card .card-body {
+  margin-top: 33px;
+}
+#confirmation_cheque .card .card-body .card-body-ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 30px;
+}
+
+#confirmation_cheque .card .card-body .card-body-ticket .text-header-ticket {
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #3e003e;
+  margin-top: 13px;
+}
+
+#confirmation_cheque .card .card-body .card-body-ticket .body-ticket {
+  margin-top: 20px;
+}
+
+#confirmation_cheque
+  .card
+  .card-body
+  .card-body-ticket
+  .body-ticket
+  .text-ticket {
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  color: #3e003e;
+}
+#confirmation_cheque
+  .card
+  .card-body
+  .card-body-ticket
+  .body-ticket
+  .text-ticket-bold {
+  font-family: Tahoma-bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  color: #3e003e;
+}
+#confirmation_cheque .card .card-footer {
+  display: flex;
+  position: absolute;
+  right: 38.74px;
+  bottom: 27px;
+}
+#confirmation_cheque .card .card-footer .button-change-account {
+  padding: 10px 14px;
+}

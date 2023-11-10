@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="myApp" class="ng-scope" ng-controller="headCtrl">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <base href="/" /> -->
+    <link rel="icon" type="image/svg+xml" href="img/iconNabu.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Nabu Fintech</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div ng-include="menuSuperior"></div>
+
+      <div class="container">
+        <div ng-view></div>
+      </div>
+      <div ng-include="menuInferior"></div>
+    </div>
+
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="main/config.js"></script>
+    <script src="consulta_saldo/config.js"></script>
+    <script src="extraccion_efectivo/config.js"></script>
+  </body>
+</html>

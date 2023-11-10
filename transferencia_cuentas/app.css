@@ -1,0 +1,475 @@
+@font-face {
+  font-family: Tahoma;
+  src: url("/img/fonts/Tahoma.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Tahoma-bold";
+  src: url("/img/fonts/Tahomabold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Tahoma-regular";
+  src: url("/img/fonts/Tahoma Regular font.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Tahoma-semibold";
+  src: url("/img/fonts/TAHOMA_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Tahoma-regularbold";
+  src: url("/img/fonts/TAHOMAB0.ttf") format("truetype");
+}
+
+#add_account {
+  position: relative;
+  height: 527px;
+}
+#add_account .card {
+  padding: 31px 40px 22px 44px;
+}
+
+#add_account .card .card-detalles-header {
+  border: 1.4px solid transparent;
+  box-shadow: 4.50146px 4.50146px 15.0049px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  padding: 11px 24px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+#add_account .card .card-detalles-header .card-saldo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border-right: 2px solid #3e003e;
+  margin: 0;
+  padding: 0 34px 0 0;
+  gap: 12px;
+}
+#add_account .card .card-detalles-header .card-saldo .number-negrilla {
+  font-size: 19px;
+  font-family: Tahoma;
+  font-weight: 400;
+  color: #3e003e;
+}
+#add_account .card .card-detalles-header .card-header-img-bank {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-left: 35px;
+  height: 100%;
+  gap: 10px;
+}
+
+#add_account
+  .card
+  .card-detalles-header
+  .card-header-img-bank
+  .card-header-img {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 3.78775px 3.78775px 12.6258px rgb(0 0 0 / 25%);
+  border-radius: 4.41904px;
+  height: 36px;
+  align-items: center;
+  width: 43px;
+  justify-content: center;
+}
+
+#add_account
+  .card
+  .card-detalles-header
+  .card-header-img-bank
+  .card-header-img
+  .card-img {
+  width: 38px;
+  height: 21px;
+  border-radius: 6px;
+}
+#add_account .card .card-detalles-header .card-account {
+  display: grid;
+  justify-items: start;
+  height: 100%;
+  gap: 12px;
+  margin-left: 50px;
+}
+
+#add_account .card .card-detalles-header .card-account .card-number-account {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+#add_account .card .card-body {
+  padding: 0 5px;
+}
+
+#add_account .card .card-body .card-item-detail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 17px;
+}
+#add_account .card .card-body .card-item-detail input {
+  font-family: Tahoma-bold;
+  letter-spacing: -0.011em;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 20px;
+  height: 52px;
+  margin-top: 12px;
+  width: calc(100% - 20px);
+  color: #3e003e;
+  padding: 0 11px;
+  border: none;
+  outline: none;
+  border-bottom: 2.25px solid #3e003e;
+  background-color: #ededed;
+}
+
+#add_account .card .card-body .card-item-detail .item-add .text-item-add {
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: -0.011em;
+  padding: 0 3px;
+  color: #3e003e;
+}
+#add_account .card .card-body .card-item-detail .item-add .item-select {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  border: none;
+  margin-top: 12px;
+}
+
+#add_account
+  .card
+  .card-body
+  .card-item-detail
+  .item-add
+  .item-select
+  .card-item-guaranie {
+  padding: 9px 6px;
+  height: 52px;
+  border: 2px solid transparent;
+  background: #ffffff;
+  box-shadow: 2.31217px 2.31217px 7.70722px rgba(0, 0, 0, 0.25);
+  border-radius: 5.13659px;
+  color: #3e003e;
+}
+
+#add_account
+  .card
+  .card-body
+  .card-item-detail
+  .item-add
+  .item-select
+  .card-item-guaranie:hover {
+  border: 2px solid #3e003e;
+}
+#add_account
+  .card
+  .card-body
+  .card-item-detail
+  .item-add
+  .item-select
+  .card-item-dolar {
+  padding: 9px 14px;
+  height: 52px;
+  border: 2px solid transparent;
+  background: #ffffff;
+  box-shadow: 2.31217px 2.31217px 7.70722px rgba(0, 0, 0, 0.25);
+  border-radius: 5.13659px;
+  color: #3e003e;
+}
+
+#add_account
+  .card
+  .card-body
+  .card-item-detail
+  .item-add
+  .item-select
+  .card-item-dolar:hover {
+  border: 2px solid #3e003e;
+}
+#add_account .card .card-footer {
+  display: flex;
+  position: absolute;
+  right: 38.74px;
+  bottom: 22px;
+}
+#add_account .card .card-footer .nabu-buttonConfirm {
+  padding: 11px 19px 11px 15px;
+}
+#add_account .card .card-footer .button-change-account {
+  padding: 10px 14px;
+}
+
+#info_transferencia {
+  position: relative;
+  height: 527px;
+}
+#info_transferencia .card {
+  padding: 31px 40px 22px 44px;
+}
+
+#info_transferencia .card .card-detalles-header {
+  border: 1.4px solid transparent;
+  box-shadow: 4.50146px 4.50146px 15.0049px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  padding: 11px 24px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+#info_transferencia .card .card-detalles-header .card-saldo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border-right: 2px solid #3e003e;
+  margin: 0;
+  padding: 0 34px 0 0;
+  gap: 12px;
+}
+#info_transferencia .card .card-detalles-header .card-saldo .number-negrilla {
+  font-size: 19px;
+  font-family: Tahoma;
+  font-weight: 400;
+  color: #3e003e;
+}
+#info_transferencia .card .card-detalles-header .card-header-img-bank {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-left: 35px;
+  height: 100%;
+  gap: 10px;
+}
+
+#info_transferencia
+  .card
+  .card-detalles-header
+  .card-header-img-bank
+  .card-header-img {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 3.78775px 3.78775px 12.6258px rgb(0 0 0 / 25%);
+  border-radius: 4.41904px;
+  height: 36px;
+  align-items: center;
+  width: 43px;
+  justify-content: center;
+}
+
+#info_transferencia
+  .card
+  .card-detalles-header
+  .card-header-img-bank
+  .card-header-img
+  .card-img {
+  width: 38px;
+  height: 21px;
+  border-radius: 6px;
+}
+#info_transferencia .card .card-detalles-header .card-account {
+  display: grid;
+  justify-items: start;
+  height: 100%;
+  gap: 12px;
+  margin-left: 50px;
+}
+
+#info_transferencia
+  .card
+  .card-detalles-header
+  .card-account
+  .card-number-account {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+#info_transferencia .card .card-body {
+  padding: 0 5px;
+}
+#info_transferencia .card .card-body .card-item-resumen {
+  margin-bottom: 30px;
+}
+#info_transferencia .card .card-body .card-item-resumen span {
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.0049px;
+
+  letter-spacing: -0.011em;
+  color: #3e003e;
+}
+#info_transferencia .card .card-body .card-item-detail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 17px;
+  padding: 0 8px;
+}
+#info_transferencia .card .card-body .card-item-detail .item-add {
+  display: flex;
+  flex-direction: column;
+}
+
+#info_transferencia .text-item-add {
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: -0.011em;
+  margin-bottom: 12px;
+  color: #3e003e;
+}
+#info_transferencia .text-item-value {
+  font-family: Tahoma-bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.011em;
+  color: #3e003e;
+}
+
+#info_transferencia .card .card-body .card-body-totally-amount {
+  padding: 0 76px;
+  margin-top: 35px;
+}
+
+#info_transferencia
+  .card
+  .card-body
+  .card-body-totally-amount
+  .card-item-account {
+  display: flex;
+  justify-content: center;
+  border: 3px solid transparent;
+  box-shadow: 4.50146px 4.50146px 15.0049px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 19px 25px;
+  background-color: #ffffff;
+  color: #3e003e;
+}
+#info_transferencia
+  .card
+  .card-body
+  .card-body-totally-amount
+  .card-item-account
+  .card-resumen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#info_transferencia
+  .card
+  .card-body
+  .card-body-totally-amount
+  .card-item-account
+  .card-resumen
+  .text-resumen-total {
+  font-family: Tahoma-bold;
+  font-size: 15px;
+}
+#info_transferencia
+  .card
+  .card-body
+  .card-body-totally-amount
+  .card-item-account
+  .card-resumen
+  .text-resumen-cash {
+  font-family: Tahoma-bold;
+  font-size: 25px;
+}
+#info_transferencia .card .card-footer {
+  display: flex;
+  position: absolute;
+  right: 38.74px;
+  bottom: 22px;
+}
+#info_transferencia .card .card-footer .nabu-buttonConfirm {
+  padding: 11px 19px 11px 15px;
+}
+#info_transferencia .card .card-footer .button-change-account {
+  padding: 10px 14px;
+}
+
+#transaction_succes {
+  position: relative;
+  height: 527px;
+}
+#transaction_succes .card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 57px 38px 26px 38px;
+}
+#transaction_succes .card .card-header .text-primary {
+  font-size: 15px;
+}
+#transaction_succes .card .card-body {
+  margin-top: 44px;
+}
+#transaction_succes .card .card-body .card-body-ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 28px;
+}
+
+#transaction_succes .card .card-body .card-body-ticket .text-header-ticket {
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #3e003e;
+  margin-top: 13px;
+}
+
+#transaction_succes .card .card-body .card-body-ticket .body-ticket {
+  margin-top: 20px;
+}
+
+#transaction_succes
+  .card
+  .card-body
+  .card-body-ticket
+  .body-ticket
+  .text-ticket {
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #3e003e;
+}
+#transaction_succes
+  .card
+  .card-body
+  .card-body-ticket
+  .body-ticket
+  .text-ticket-bold {
+  font-family: Tahoma-bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #3e003e;
+}
+#transaction_succes .card .card-footer {
+  display: flex;
+  position: absolute;
+  right: 38.74px;
+  bottom: 27px;
+}
+#transaction_succes .card .card-footer .button-change-account {
+  padding: 10px 14px;
+}

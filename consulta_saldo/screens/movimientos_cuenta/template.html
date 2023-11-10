@@ -1,0 +1,80 @@
+<div id="detaillAccount">
+  <div class="card">
+    <div ng-include="infoAccount"></div>
+    <div class="card-body">
+      <div class="card-body-title">
+        <span class="text-negrilla">Movimientos del mes:</span>
+      </div>
+      <div class="card-table">
+        <table>
+          <thead>
+            <tr class="table-head">
+              <th class="fecha text-negrilla">Fecha</th>
+              <th class="description text-negrilla">Descripción</th>
+              <th class="text-negrilla">Importe</th>
+              <th class="text-negrilla">Saldo</th>
+            </tr>
+          </thead>
+          <tbody class="body-table">
+            <tr
+              ng-repeat="movimiento in movimientos_cuenta"
+              class="body-table-tr"
+            >
+              <td class="fecha text-regular">{{movimiento.date}}</td>
+              <td class="description text-regular">
+                {{movimiento.description}}
+              </td>
+              <td class="text-regular">{{movimiento.importe}}</td>
+              <td class="text-regular">{{movimiento.cash}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card-footer-title">
+        <span class="footer-title">Ver mas movimientos</span>
+      </div>
+    </div>
+    <div class="card-footer">
+      <a href="consulta_saldo/#!/cuentas">
+        <button class="button-change-account">
+          <svg
+            width="16"
+            height="15"
+            viewBox="0 0 16 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0.962952 0.00012207H15.206V14.2501H0.962952V0.00012207ZM1.50972 0.548631H14.6571V13.7025H1.50972V0.548631ZM9.18098 11.0008L9.9557 10.2257L6.85682 7.12528L9.9557 4.02489L9.18098 3.24979L5.30738 7.12528L9.18098 11.0008Z"
+              fill="#3E003E"
+            />
+          </svg>
+
+          Elegir otra cuenta
+        </button>
+      </a>
+      <a href="consulta_saldo/#!/comprobante">
+        <button class="nabu-buttonConfirm">
+          <svg
+            width="21"
+            height="12"
+            viewBox="0 0 21 12"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M4.4978 10.05L10.4949 12L16.4919 10.05L20.9897 6L16.4919 1.95L10.4949 0L4.4978 1.95L0 6L4.4978 10.05ZM4.91017 9.40453L10.4945 11.2188L16.0921 9.40453L19.8574 6.00014L16.0921 2.5931L10.4945 0.780139L4.91017 2.5931L1.13446 6.00014L4.91017 9.40453ZM6.7473 7.55256L8.94253 9.74886H12.0484L14.2436 7.55256V4.44652L12.0484 2.25021H8.94253L6.7473 4.44652V7.55256ZM9.25251 8.99901L7.49633 7.24197V4.75714L9.25251 3.00009H11.7372L13.4934 4.75714V7.24197L11.7372 8.99901H9.25251ZM9.36987 6.46525L10.0284 7.12414H10.9602L11.6188 6.46525V5.53344L10.9602 4.87455H10.0284L9.36987 5.53344V6.46525Z"
+              fill="white"
+            />
+          </svg>
+
+          Ver comprobante
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
